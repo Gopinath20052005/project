@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #6a5acd, #7b68ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center Container */
+.main-container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Card Design */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px 20px;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Icon */
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Headings */
+h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #6a5acd;
+    margin-bottom: 10px;
+}
+
+/* Description */
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* File input */
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6a5acd, #7b68ee);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Features Section */
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.features div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.features span {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #555;
+}
